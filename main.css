@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.container {
+    width: 375px;
+    height: 80vh;
+    margin-top: 50px;
+}
+
+.calculator {
+    background: grey;
+    padding: 20px;
+}
+
+.calculator form input {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.operator:hover {
+    background: grey;
+}
+
+.op1:hover {
+    background: grey;
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+}

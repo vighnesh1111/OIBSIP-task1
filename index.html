@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <center>
+        <h1>Calculator</h1>
+        <div class="container">
+            <div class="calculator">
+                <form>
+                    <div class="display">
+                        <input type="text" name="display" id="display">
+                    </div>
+                    <div>
+                        <input type="button" value="AC" onclick="funct(1)" class="operator">
+                        <input type="button" value="(" onclick="funct(3)" class="operator">
+                        <input type="button" value=")" onclick="funct(2) " class="operator">
+                        <input type="button" value="/" onclick="funct(4) " class="operator">
+
+                    </div>
+                    <div>
+                        <input type="button" value="7" onclick="funct(5)" class="op1">
+                        <input type="button" value="8" onclick="funct(6)" class="op1">
+                        <input type="button" value="9" onclick="funct(7) " class="op1">
+                        <input type="button" value="*" onclick="funct(8)" class="operator">
+                    </div>
+                    <div>
+                        <input type="button" value="4" onclick="funct(9) " class="op1">
+                        <input type="button" value="5" onclick="funct(10) " class="op1">
+                        <input type="button" value="6" onclick="funct(11) " class="op1">
+                        <input type="button" value="+" onclick="funct(12) " class="operator">
+                    </div>
+                    <div>
+                        <input type="button" value="1" onclick="funct(13) " class="op1">
+                        <input type="button" value="2" onclick="funct(14) " class="op1">
+                        <input type="button" value="3" onclick="funct(15) " class="op1">
+                        <input type="button" value="-" onclick="funct(16) " class="operator">
+                    </div>
+                    <div>
+                        <input type="button" value="00" onclick="funct(17)" class="op1">
+                        <input type="button" value="0" onclick="funct(18)" class="op1">
+                        <input type="button" value="." onclick="funct(19) " class="operator">
+                        <input type="button" value="=" onclick="funct(20)" class="operator">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </center>
+</body>
+
+<script src="main.js"></script>
+
+</html>
